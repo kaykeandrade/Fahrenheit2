@@ -15,18 +15,18 @@ public class Fahrenheit {
      */
     @SuppressWarnings("empty-statement")
     public static void main(String[] args) {
-        float celsius ;
-        float fahrenheit;
+        float c ;
+        float f;
         
-        celsius = 10;
+        c = 10;
         
-        while (celsius <= 100);{
+        while (c <= 100) {
         
-        fahrenheit = (9 * celsius + 160) / 5;
+        f = (9 * c + 160) / 5;
         
-        System.out.printf("%.2f°C = %.2f°F.\n", celsius, fahrenheit);
+        System.out.printf("%.2f°C = %.2f°F.\n", c, f);
         
-        celsius += 10;
+        c += 10;
         
         }
         // TODO code application logic here
